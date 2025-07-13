@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: easyisp
+Version: 0.1.0
+Summary: EasyISP : ENERZAi ISP Tool
+Home-page: https://github.com/ENERZAi/EasyISP
+Author: Sangmin Kim
+Author-email: sangmin.kim@enerzai.com
+Keywords: easy,ezie,isp,qa
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# EasyISP
+Raw2RGB ISP & Classic Image/Video Denoiser + UI
+## Prerequisites
+```
+pip install -r requirements.txt
+# only for 3DNR+Filter
+pip install imageio[ffmpeg]
+pip install imageio[pyav]
+```
+## Run
+```
+python EasyISP.py
+```
+
+## UI
+### EasyISP
+- simple pipeline by ENERZAi Raw2RGB Team
+
+![simpleISP UI](assets/simpleISP_UI.png)
+### fast-openISP
+- [Reference](https://github.com/QiuJueqin/fast-openISP/tree/master)
+
+![fast-openISP UI 1](assets/fast-openISP_UI-1.png)
+![fast-openISP UI 2](assets/fast-openISP_UI-2.png)
+### 3DNR+Filter
+- Postprocessing for denoised results by ENERZAi Raw2RGB Team
+
+![3DNR+Filter UI](assets/3DNR+Filter_UI.png)   
